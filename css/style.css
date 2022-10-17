@@ -1,0 +1,43 @@
+div{
+    float: left;
+    height: 300px;
+}
+
+.div_1{
+    width: 50%;
+    background-color: blue;
+}
+
+.div_2{
+    width: 50%;
+    background-color: red;
+}
+
+.container{
+    margin: 100px 100px 0 100px;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .div_1{
+        width: 50%;
+        background-color: greenyellow;
+        margin-bottom: 50px;
+    }
+    .div_2{
+        width: 50%;
+        background-color: rgb(20, 194, 20);
+    }
+}
